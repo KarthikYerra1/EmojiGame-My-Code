@@ -1,0 +1,54 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px 15px 30px;
+  height: 13vh;
+  background-color: #9796f0;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-container {
+    padding: 15px 50px 15px 50px;
+  }
+}
+
+.title-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.game-title {
+  font-family: 'Roboto';
+  color: #fff;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 576px) {
+  .game-title {
+    font-size: 24px;
+  }
+}
+
+.game-over-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.score-display {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .score-display {
+    font-size: 18px;
+  }
+}

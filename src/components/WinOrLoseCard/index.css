@@ -1,0 +1,108 @@
+.win-or-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 4px solid #ffffff30;
+  padding: 20px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  .win-or-lose-card {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    width: 65%;
+  }
+}
+
+.game-text {
+  order: 2;
+  text-align: center;
+  font-family: 'Roboto';
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .game-text {
+    order: 1;
+    margin-right: 15px;
+  }
+}
+
+.w-or-l-image {
+  height: 65%;
+  width: 65%;
+  order: 1;
+}
+
+@media screen and (min-width: 576px) {
+  .w-or-l-image {
+    height: 55%;
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .w-or-l-image {
+    order: 2;
+    margin-left: 40px;
+    height: 50%;
+    width: 50%;
+  }
+}
+
+.win-or-lose-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-heading {
+    font-size: 42px;
+  }
+}
+
+.type-of-score {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .type-of-score {
+    font-size: 32px;
+  }
+}
+
+.score-show {
+  color: #6a59ff;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .score-show {
+    font-size: 42px;
+  }
+}
+
+.play-again-button {
+  height: 45px;
+  background-color: #ffce27;
+  color: #3d3d3d;
+  padding: 10px 20px 10px 20px;
+  border-style: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
